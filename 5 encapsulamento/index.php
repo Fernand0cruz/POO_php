@@ -11,7 +11,6 @@
 <body>
     <pre>
     <?php
-    echo "salve cambada";
 
     require_once 'ControleRemoto.php';
     $c = new ControleRemoto();
@@ -19,7 +18,7 @@
     // obj estão privadas
 
     // operaçoes possiveis, tenho rever esse trem
-    // ligar();
+    // ligar(); 
     // desligar();
     // abrirMenu();
     // fecharMenu();
@@ -32,11 +31,15 @@
 
     $c = new ControleRemoto();
     $c->ligar();
+    // $c->desligar();
     $c->play();
-    $c->maisVolume(50);
-    $c->menosVolume(50);
-    
+    $c->maisVolume();
+    $c->menosVolume();
+    // $c->ligarMudo();
+    // $c->desligarMudo();
+    // $c->pause();
     $c->abrirMenu();
+    // $c->fecharMenu();
     
     
 
