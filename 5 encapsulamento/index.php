@@ -17,7 +17,7 @@
     // só pd usar as function disponiveis na interface pois as utilizaads no 
     // obj estão privadas
 
-    // operaçoes possiveis, tenho rever esse trem
+    // operaçoes possiveis, tenho q rever esse trem
     // ligar(); 
     // desligar();
     // abrirMenu();

@@ -17,9 +17,9 @@
     $l[0] = new Lutador("Nando", "br", 21, 1.70, 70, 32, 0, 1);
     $l[1] = new Lutador("Jão bosta", "ch", 53, 2.12, 90, 22, 16, 5);
 
-    $l[0]->perderLuta();
-    $l[0]->apresentar();
-    $l[0]->status();
+    $l[1]->perderLuta();
+    $l[1]->apresentar();
+    $l[1]->status();
 
     ?>
     </pre>

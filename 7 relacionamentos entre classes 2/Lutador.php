@@ -24,12 +24,6 @@ class Lutador
         $this->empates = $em;
     }
 
-
-
-
-
-
-
     /**
      * Get the value of nome
      */
