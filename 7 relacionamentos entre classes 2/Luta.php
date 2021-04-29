@@ -26,7 +26,7 @@ class Luta
         if ($this->aprovada) {
             $this->desafiado->apresentar();
             $this->desafiante->apresentar();
-            $vencedor = rand(0,2);
+            $vencedor = rand(0, 2);
             switch ($vencedor) {
                 case 0:
                     echo "<p>Empate!</p>";
@@ -44,10 +44,10 @@ class Luta
                     $this->desafiado->perderLuta();
                     break;
                 default:
-                    
+
                     break;
             }
-        }else{
+        } else {
             echo "<p>Luta não pode acontecer</p>";
         }
     }
