@@ -27,7 +27,7 @@
 
     $p3->receberAumento(1500);
 
-    $p4->mudarTrabalho();
+    // $p4->mudarTrabalho();
 
     print_r($p1);
     print_r($p2);
