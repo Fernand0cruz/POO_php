@@ -34,7 +34,7 @@
     $p2->sacar(530);
     $p2->FecharConta();
 
-    print_r($p2);
+    print_r($p1);
 
     ?>
 </pre>

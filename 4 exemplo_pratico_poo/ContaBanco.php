@@ -8,7 +8,13 @@ class ContaBanco
     private $dono;
     private $saldo;
     private $status;
-
+    
+    public function __construct()
+    {
+        $this->setSaldo(0);
+        $this->setStatus(false);
+        echo "Conta criada com sucesso!</br>";
+    }
     // metodos
     public function abrirConta($t)
     {
@@ -70,15 +76,6 @@ class ContaBanco
         } else {
             echo "<p>Erro na conta não posso cobrar!</p>";
         }
-    }
-
-
-    // metodos especiais
-    public function __construct()
-    {
-        $this->setSaldo(0);
-        $this->setStatus(false);
-        echo "Conta criada com sucesso!</br>";
     }
 
 
